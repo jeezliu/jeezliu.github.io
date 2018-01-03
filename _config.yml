@@ -87,9 +87,9 @@ analytics:
 author:
   name             : "Liu Jizhen"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Only in depth can we feel its endless fun."
   location         : "QingDao"
-  email            :
+  email            : "liu_jizhen@foxmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/jeezliu"
   gitlab           :
   google_plus      :
   keybase          :
