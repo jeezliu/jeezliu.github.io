@@ -1,17 +1,18 @@
 ---
 title: "Better at Git"
+excerpt: "Git 与 GitHub 的使用记录与总结。"
 modified: 2016-01-03T16:03:49-04:00
 categories: 
-  - 工具
+  - Tools
 tags:
   - Git
 ---
 
-{% include toc title="Unique Title" icon="file-text" %}
+{% include toc title="内容列表" icon="file-text" %}
 
 工作流程图
 
-![Git Image]({{ site.url }}{{ site.baseurl }}/images/git_work_flow.jpg)
+![Git Image]({{ site.url }}{{ site.baseurl }}/assets/images/git-work-flow.png)
 * Workspace：工作区
 * Index / Stage：暂存区
 * Repository：仓库区（或本地仓库）
