@@ -56,6 +56,8 @@ git log --pretty=oneline
 git log -p -2
 # 查看某次commit的修改内容
 git show <commit-hash-id>
+# 查看文件每一行的修改者
+git blame file
 # 查看某个文件的修改历史
 git log -p <filename>
 # 查看操作记录，可用于 reset 后的重做
