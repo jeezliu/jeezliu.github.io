@@ -1,5 +1,5 @@
 ---
-title: "JavaScript原型模式"
+title: "JavaScript 原型模式"
 excerpt: "对象的创建不是通过实例化类的方法实现的，而是采用原型模式生成的。即当要获取一个新对象的时候，是通过从另一个对象 clone 而来，这样每个对象都有一个对应的原型对象"
 modified: 2015-05-12
 categories: 
