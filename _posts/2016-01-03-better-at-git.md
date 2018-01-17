@@ -235,3 +235,18 @@ git branch -m master
 # 6.远程仓库强制更新
 git push -f origin master
 ```
+
+## 子模块
+
+Git 允许克隆另外一个仓库到的项目中作为子项目，并且保持提交的相对独立。
+```
+// 将子项目加入当前仓库，各自提交记录独立
+git submodule add git://github.com/chneukirchen/rack.git rack
+```
+如果 git clone 了一个带有子仓库的项目，将得到一个包含子仓库的目录，其中没有内容，必须运行两个命令，初始化并更新拉取
+```
+git submodule init
+git submodule update
+// 或
+git submodule update --init --recursive
+```
