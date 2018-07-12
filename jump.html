@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"
+    />
+  <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+  <title>小程序跳转测试</title>
+  <style type="text/css">
+    .wrapper {
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      margin: 0 auto;
+      margin-top: 100px;
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper" class="wrapper">跳转</div>
+  <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+  <script>
+    window.onload = function() {
+        document.documentElement.querySelector('#wrapper').addEventListener('click', function() {
+            console.log('will jump');
+            wx.miniProgram.navigateTo({url: '/pages/jump/index?url=https://daojia.jd.com/html/index.html?channel=jdapp'});
+        })
+    };
+  </script>
+</html>
